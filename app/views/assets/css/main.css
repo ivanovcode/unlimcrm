@@ -1,0 +1,22 @@
+.required {
+	color:#db385e;
+}
+
+/*norecord*/
+.norecord {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#353d47;
+} 
+.norecord td {
+    padding-top: 30px!important;
+}
+.norecord:hover {
+    background: none;
+}
+    
+.norecord a {
+    color:#db385e;
+    text-decoration: underline;
+} 

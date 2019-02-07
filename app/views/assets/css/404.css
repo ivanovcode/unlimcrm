@@ -1,0 +1,43 @@
+.signin-in{
+	position: relative;	
+}
+.signin {
+	display: block;
+	position: relative;
+}
+.signin-in .preloader {
+	display: none;
+	position: absolute;
+	top:0px;
+	left:0px;
+ 	height: 100%;
+    width: 100%;
+	z-index: 99;
+	background:rgba(255,255,255,1);
+	text-align: center;
+}
+.signin-in .preloader img {
+	display: block;
+	position: absolute;
+	top:50%;
+	left:50%;
+ 	height: 64px;
+    width: 64px;
+    margin-top:-32px;
+    margin-left:-32px;
+}
+.login-page{
+	background: url('../images/bg-oops.jpg') repeat center center fixed!important;
+	-webkit-background-size: cover!important;
+	-moz-background-size: cover!important;
+	-o-background-size: cover!important;
+	background-size: cover!important;
+  	-moz-transform: scale(0.8, 0.8)!important; /* Moz-browsers */
+    zoom: 0.8!important; /* Other non-webkit browsers */
+    zoom: 80%!important; /* Webkit browsers */
+}
+.flat-blue .btn.btn-info {
+	background-color: #db385e;
+    color: #FFF;
+    border-color: #db385e;
+}

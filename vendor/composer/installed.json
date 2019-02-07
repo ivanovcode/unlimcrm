@@ -1,0 +1,79 @@
+[
+    {
+        "name": "dintel/php-github-webhook",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dintel/php-github-webhook.git",
+            "reference": "e6450ebdbc718b8d5fc6e5a2ae462d350232a0ce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dintel/php-github-webhook/zipball/e6450ebdbc718b8d5fc6e5a2ae462d350232a0ce",
+            "reference": "e6450ebdbc718b8d5fc6e5a2ae462d350232a0ce",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2016-11-20 11:41:31",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GitHubWebhook\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Zbarski",
+                "email": "dmitry.zbarski@gmail.com",
+                "homepage": "http://zbarski.info",
+                "role": "Developer"
+            }
+        ],
+        "description": "Simple class for handling GitHub webhook calls",
+        "keywords": [
+            "git",
+            "webhook"
+        ]
+    },
+    {
+        "name": "bcosca/fatfree",
+        "version": "3.6.4",
+        "version_normalized": "3.6.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bcosca/fatfree.git",
+            "reference": "dee4d73918a42076d5ac7db64d6d39706c7f328a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bcosca/fatfree/zipball/dee4d73918a42076d5ac7db64d6d39706c7f328a",
+            "reference": "dee4d73918a42076d5ac7db64d6d39706c7f328a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2018-04-19 17:23:25",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/base.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+        "homepage": "http://fatfreeframework.com/"
+    }
+]
